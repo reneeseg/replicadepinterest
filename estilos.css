@@ -115,10 +115,12 @@ header nav img#pinterest-icon:hover{
     position: absolute;
     margin-top: 80px;
     padding-right: 5px;
+    width: 100%;
 }
 
 .imagenes{
     columns: 5 240px;
+    max-width: calc(5 * 260px);
     margin: auto;
 }
 
